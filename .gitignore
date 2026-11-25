@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build and test output
+build/
+coverage/
+dist/
+
+# Logs and package-manager caches
+*.log
+.npm/
+.cache/
+.eslintcache
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
